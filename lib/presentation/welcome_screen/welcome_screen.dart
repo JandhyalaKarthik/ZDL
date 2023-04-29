@@ -61,6 +61,35 @@ class WelcomeScreen extends StatelessWidget {
                         fit: BoxFit.cover,
                       ),
                     ),
+                    // child: Column(
+                    //   mainAxisSize: MainAxisSize.min,
+                    //   crossAxisAlignment: CrossAxisAlignment.end,
+                    //   mainAxisAlignment: MainAxisAlignment.center,
+                    //   children: [
+                    //     Padding(
+                    //       padding: getPadding(
+                    //         top: 17,
+                    //       ),
+                    //       child: Text(
+                    //         "Welcome to",
+                    //         overflow: TextOverflow.ellipsis,
+                    //         textAlign: TextAlign.center,
+                    //         style: AppStyle.txtMagra32,
+                    //       ),
+                    //     ),
+                    //   ],
+                    // ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.topCenter,
+                  child: Container(
+                    padding: getPadding(
+                      left: 2,
+                      top: 192,
+                      right: 2,
+                      bottom: 192,
+                    ),
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.end,
@@ -71,16 +100,16 @@ class WelcomeScreen extends StatelessWidget {
                             top: 17,
                           ),
                           child: Text(
-                            "Welcome to   ",
+                            "Welcome to",
                             overflow: TextOverflow.ellipsis,
-                            textAlign: TextAlign.left,
+                            textAlign: TextAlign.center,
                             style: AppStyle.txtMagra32,
                           ),
                         ),
                       ],
                     ),
+                    ),
                   ),
-                ),
                 Align(
                   alignment: Alignment.bottomCenter,
                   child: Container(
